@@ -1,0 +1,118 @@
+header {
+	background: #422939;
+}
+@font-face {
+  	font-family: 'FirstFont';
+  	src: url(lolitta-webfont.woff);
+}
+@font-face {
+  	font-family: 'lato';
+  	src: url(lato-regular-webfont.woff);
+}
+@font-face {
+	font-family: 'Pacifico', cursive;
+  	src: url(	);
+}
+.paragraf1 {
+  	font-family: FirstFont;
+  	color: #FCB420;
+  	font-size: 70px;
+  	padding-left: 20px;
+}
+.paragraf2 {
+  	font-family: lato;
+  	color: #fff;
+  	font-size: 30px;
+  	padding-left: 20px;
+}
+.paragraf3 {
+	color:#4F3345;
+  	font-family: FirstFont;
+  	font-size: 60px;
+}
+.paragraf4 {
+  	font-family: lato;
+  	color:#4F3345;
+  	font-size: 40px;
+}
+.paragraf5 {
+	font-family: lato;
+	color:#4F3345;
+	font-size: 15px;
+}
+.paragraf6 {
+	font-family: lato;
+	color: #FCB420;
+	font-size: 15px;
+}
+.paragraf7{
+  	font-family: Pacifico;
+  	color: #FCB420;
+  	font-size: 20px;
+}
+.paragraf8 {
+  	font-family: lato;
+  	color: #FCB420;
+  	font-size: 30px;
+}
+.bagian1 {
+  	background: url(bg1.png);
+  	width: 100%;
+  	padding-right: var(--bs-gutter-x, 0.75rem);
+  	padding-left: var(--bs-gutter-x, 0.75rem);
+  	margin-right: auto;
+  	margin-left: auto;
+  	background-repeat: no-repeat;
+  	background-position: 0px -430px;
+}
+.bagian21 {
+  	background: url(bg2.png);
+  	width: 100%;
+  	padding-right: var(--bs-gutter-x, 0.75rem);
+  	padding-left: var(--bs-gutter-x, 0.75rem);
+  	margin-right: auto;
+  	margin-left: auto;
+  	background-repeat: no-repeat;
+  	background-position: 0px -200px;
+}
+.bagian2 { 
+  	width: 100%;
+  	padding-right: var(--bs-gutter-x, 0.75rem);
+  	padding-left: var(--bs-gutter-x, 0.75rem);
+  	margin-right: auto;
+  	margin-left: auto;
+}
+.bagian3 { 
+	background-color: #fff;
+  	padding-top: 80px;
+  	padding-bottom: 80px;
+}
+.bagian4 { 
+	background-color: #FFC74A;
+  	padding-top: 80px;
+  	padding-bottom: 80px;
+}
+.navigasi1 {
+  	color: #fff;
+  	text-decoration: none;
+  	background-color: #4F3345;
+  	padding: 15px;
+  	border-radius: 15px;
+}
+.centered {
+     float: none;
+     padding-right: var(--bs-gutter-x, 0.75rem);
+  	 padding-left: var(--bs-gutter-x, 0.75rem);
+     margin-left: auto;
+     margin-right: auto;
+}
+.desc{
+	font-family: lato;
+  	color:#fff;
+  	font-size: 20px;
+}
+.desc2{
+	font-family: lato;
+  	color:#fff;
+  	font-size: 18px;
+}
