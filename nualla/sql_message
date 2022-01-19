@@ -31,9 +31,9 @@ CREATE TABLE `meassage` (
   `nama` varchar(250) NOT NULL,
   `alamat` varchar(500) NOT NULL,
   `no_telp` int(11) DEFAULT NULL,
-  `pesan` timestamp NOT NULL DEFAULT current_timestamp(),
-  `no_pesanan` timestamp NOT NULL DEFAULT current_timestamp(),
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `pesan` varchar(500) NOT NULL,
+  `no_pesanan` int(11) NOT NULL,
+) 
 
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
